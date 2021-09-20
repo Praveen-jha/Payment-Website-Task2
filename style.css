@@ -1,0 +1,192 @@
+/* CSS Reset  */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navigation CSS  */
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navigation{
+    display:flex;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+} 
+.navigation li{
+    list-style: none;
+}
+.navigation li a{
+    padding: 10px 15px;
+    margin: 5px 7px;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 20px;
+    color: white;
+}
+.left-navbar{
+    text-decoration: none;
+    font-size: 40px;
+}
+.my-linkedin{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+body{
+    background: url('img/bg.jpg') no-repeat center center/cover;
+    background-size: 350vh;
+
+}
+.navigation li a:hover{
+    color: black;
+    background-color: white;
+}
+.color-white{
+    color: white;
+}
+.section-1{
+    margin: 130px 2px;
+}
+.spark{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+.foundation{
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+}
+.donation-text{
+    display: flex;
+    justify-content: center;
+    font-size: 53px;
+}
+.donate-button{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.donate-button a{
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 7px 21px;
+    margin: 5px 2px;
+    border-radius: 12px;
+}
+.donate-button a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Donation Page CSS  */
+.container{
+    font-size: 50px;
+    margin: 9px auto;
+    width: fit-content;
+}
+.donation-center{
+    margin: 5px auto;
+    width: fit-content;
+    position: relative;
+    top: 78px;
+
+}
+.section-donation{
+    width: 55%;
+    margin: 96px auto;
+    height: 408px;
+    background-color: rgb(111 111 111 / 60%);
+    border-radius: 20px;
+}
+.img{
+    width: 100px;
+    margin: auto;
+}
+.img img{
+    width: 164px;
+    margin: 5px;
+    filter: brightness(0) invert(1);
+}
+.section-donation1{
+    width: 63%;
+    margin: 96px auto;
+    height: 700px;
+    background-color: rgb(42 79 105 / 60%);
+    border-radius: 20px;
+}
+.container1{
+    font-size: 173%;
+    margin: 9px auto;
+    width: fit-content;
+    padding: 12px 90px;
+}
+.container1 p{
+    margin-top: 50px;
+    text-align: center;
+}
+.non-profit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-donation2{
+    width: 85%;
+    margin: 96px auto;
+    height: 700px;
+    background: rgb(0,0,0,0.6);
+    border-radius: 20px;
+}
+.con-img{
+    margin-top: 80px;
+}   
+.con-img img{
+    width: 260px;
+} 
+.pos-right{
+    position: absolute;
+    right: 343px;
+    top: 294px;
+}
+.pos-right input{
+    margin: 9px 9px;
+    padding: 12px 26px;
+    font-size: 34px;
+    border-radius: 33px;
+    width: 370px;
+}
+.msg{
+    border-radius: 20px;
+    margin: 5px 10px;
+    padding: 5px 13px;
+}
+.btn{
+
+}
+.btn input{
+    cursor: pointer;
+    background: none;
+    color: white;
+
+}
+.btn input:hover{
+    background-color: white;
+    color: rgb(0,0,0,0.6);
+}
+.list li a{
+    color: #9db0dc;
+    margin: 5px 12px;
+    font-size: 1.2rem;
+
+}
+.list li{
+    list-style: none;
+}
+.list{
+    display: flex;
+    
+}
+
+
+
